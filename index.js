@@ -6,7 +6,7 @@ object1 = Object.assign({},obj,{[key]:value})
 return object1
 }
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
-  obj= Object.assign({}, obj, {[key]:value})
+Object.assign({},obj,{[key]:value})
   return obj
 }
 function deleteFromObjectByKey(obj,key){
